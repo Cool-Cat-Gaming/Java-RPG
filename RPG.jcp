@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>RPG</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>\</source_path>
+		<jdkprofile_ref>JDK version 1.7.0_65</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="RPG"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>RPG</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<fileitem>
+				<path>Arena.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Menu.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Name.java</path>
+			</fileitem>
+			<fileitem>
+				<path>RPG.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Title.java</path>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
